@@ -1,0 +1,46 @@
+.map
+{
+  position: relative;
+  display: grid;
+  width: 1280px;
+  margin: auto;
+  grid-template-columns: repeat(20, 64px);
+  grid-template-rows: repeat(15, 64px);
+  position: relative;
+}
+
+.block
+{
+  width: 64px;
+  height: 64px;
+  background-color: black;
+}
+
+.block_wall
+{
+  background-color: maroon;
+}
+
+.block_floor
+{
+  background-color: #ffa;
+}
+
+.block_box
+{
+  background-color: green;
+}
+
+.char
+{
+  top: 64px;
+  left: 80px;
+  width: 32px;
+  transition: 0.1s linear;
+  height: 71px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url("images/Tisbron.png");
+  background-size: 100%;
+  position: absolute;
+}
