@@ -1,0 +1,142 @@
+@font-face {
+  font-family: '8-bit_pusabregular';
+  src: url('../font/pusab-webfont.woff2');
+}
+
+.body {
+  background: linear-gradient(150deg, rgba(0, 150, 0, 0.6) 0%, rgba(0, 255, 0, 0.7) 100%);
+   height: 100vh;
+   overflow: hidden;
+}
+
+.container {
+  position: relative;
+  left: 3%;
+  margin: 15% auto;
+  width: 50%;
+  height: 300px;
+}
+
+.panik {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+}
+
+.ctt {
+  margin: 0 auto;
+}
+
+.press {
+  margin: 15% 0 0 40%;
+  font-family: '8-bit_pusabregular';
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.perso {
+  margin: 10% 0 0 0;
+  display: none;
+}
+
+.visible {
+  display: block;
+  animation: easein 2s;
+}
+
+.notvi {
+  display: none;
+  animation: ease 1s;
+}
+
+@keyframes easein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.img_charac{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  height: 500px;
+}
+.title{
+  text-align: center;
+  font-size: 90px;
+    font-family: '8-bit_pusabregular';
+}
+.tisbron-div{
+  display: block;
+  width: 25%;
+  border: dashed 5px rgba(0,0,0,0);
+}
+.img-tisbron{
+  margin-left: 33%;
+  margin-top: 5%;
+}
+.img-montero{
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.img-yann{
+  margin-left: 33%;
+  margin-top: 5%;
+}
+.Montero-div{
+  display: block;
+  width: 25%;
+
+  border: dashed 5px rgba(0,0,0,0);
+}
+.yann-div{
+  display: block;
+  width: 25%;
+  border: dashed 5px rgba(0,0,0,0);
+}
+.yann-div:hover{
+  border: dashed 5px black;
+  background-color: orange;
+}
+.Montero-div:hover{
+  border: dashed 5px black;
+  background-color: red;
+}
+.tisbron-div:hover{
+  background-color:yellow ;
+  border: dashed 5px black;
+}
+.select-div{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 130%;
+  font-family: '8-bit_pusabregular';
+}
+
+.dialogue {
+  width: 50%;
+  position: relative;
+  bottom: 350px;
+  left: 100px;
+  border-radius: 50px;
+}
+
+.brontis {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+}
